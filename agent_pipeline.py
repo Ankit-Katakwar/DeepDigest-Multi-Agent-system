@@ -25,7 +25,7 @@ def run_research_pipeline(topic:str)-> dict:
         "messages":[("user",
                      f"Based on the following search result about '{topic}',"
                      f"pick the most relavent URL and scrape it for more deeper content.\n\n"
-                     f"Search result:\n{state['searchResult'][:800]}"
+                     f"Search result:\n{state['searchResult'][:850]}"
                      )]
     })
 
